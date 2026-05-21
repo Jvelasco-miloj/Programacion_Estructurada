@@ -11,6 +11,5 @@ Escribir ¨¿Trajiste el permiso?¨
 Leer permiso
 Si permiso = 1 entonces
 Escribir ¨ya pagaste la cuota¨
-Sino
 Finsi
 FINALGORITMO
