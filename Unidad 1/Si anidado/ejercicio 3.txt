@@ -5,11 +5,24 @@ Si (Condicional) trajo el permiso, el tutor le pregunta (Leer otra vez) si ya pa
 Si pagó la cuota, el programa muestra (Escribir): "¡Todo listo! Sube al bus."
 Si no la pagó, muestra: "Tienes permiso, pero no has pagado. No puedes subir."
 Volviendo a la primera regla, Si no trajo el permiso, el programa simplemente muestra: "Sin la firma de tu representante no viajas. Te quedas en el colegio."
-ALGORITMO APOLO
-Definir permiso, cuota como entero
-Escribir ¨¿Trajiste el permiso?¨
-Leer permiso
-Si permiso = 1 entonces
-Escribir ¨ya pagaste la cuota¨
-Finsi
-FINALGORITMO
+Algoritmo Apolo
+
+    Definir Permiso, Cuota como Entero
+    
+    Escribir "¿Trajiste el permiso?"
+    Leer Permiso
+    
+    Si Permiso == 1 Entonces
+        Escribir "¿Ya pagaste la cuota?"
+        Leer Cuota
+        
+        Si Cuota == 1 Entonces
+            Escribir "¡Todo listo! Sube al bus."
+        Sino
+            Escribir "Tienes permiso, pero no has pagado. No puedes subir."
+        FinSi
+    Sino
+        Escribir "No tienes permiso. No puedes subir al bus."
+    FinSi
+
+FinAlgoritmo
